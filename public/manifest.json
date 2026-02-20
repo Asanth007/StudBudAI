@@ -1,0 +1,17 @@
+{
+  "name": "Ai powered Leetcode Helper",
+  "description": "Helps you with your daily grind without providing the code explicitly",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "assets/default16.png",
+    "48": "assets/default48.png",
+    "128": "assets/default128.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "assets/default48.png"
+  },
+  "host_permissions": ["<all_urls>", "http://localhost:5173/*"],
+  "permissions": ["storage", "tabs"]
+}
