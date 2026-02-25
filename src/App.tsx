@@ -1,9 +1,10 @@
 import "./App.css";
-import Aichat from "./components/Aichat";
+
+import ChatComponent from './components/ChatComponent'
 function App() {
   return (
-    <div className="w-[350px] h-[500px]">
-      <Aichat />
+    <div className="w-87.5 h-125">
+     <ChatComponent/>
     </div>
   );
 }
