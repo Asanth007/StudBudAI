@@ -1,5 +1,26 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand-purple: #6b21ff;
+  
+  --color-primary: #6c47ff;
+  --color-primary-dark: #5535e0; /* hover/active state */
+  --color-primary-light: #ede9ff; /* subtle tints, focus rings */
+
+  /* Backgrounds */
+  --color-bg-base: #f0ebe3; /* main chat background */
+  --color-bg-surface: #ffffff; /* cards, input bar, bot bubbles */
+
+  /* Bubbles */
+  --color-bubble-bot: #ffffff;
+  --color-bubble-user: #dcf8c6;
+
+  /* Text */
+  --color-text-primary: #1a1a2e;
+  --color-text-secondary: #6b7280;
+  --color-text-inverse: #ffffff;
+
+  
+  --color-studbud-purple-dark: #5535e0;
+  --color-studbud-bg: #f0ebe3;
+  --color-studbud-bubble: #dcf8c6;
 }
